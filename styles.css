@@ -25,10 +25,6 @@ Sept 26 2014
 	z-index: -1;
 }
 
-/*#bottom-fade {
-	background: url("dissolve.png");
-}*/
-
 .messages-indiv {
 	width: 100%;
 	z-index: -1;
@@ -49,6 +45,7 @@ Sept 26 2014
 
 .message-name p {
 	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
 	font-size: 14px;
 	padding: 20px 0px 20px 22px;
 	overflow: hidden;
@@ -61,7 +58,8 @@ Sept 26 2014
 }
 
 .time p {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 	font-size: 13px;
 	padding-top: 20px;
 }
@@ -73,7 +71,8 @@ Sept 26 2014
 }
 
 .message-text p {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 	font-size: 14px;
 	padding: 10px 0px 10px 25px;
 	line-height: 150%;
@@ -117,11 +116,15 @@ Sept 26 2014
 }
 
 #chat-room-members p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
 	padding: 5px 10px;
 }
 
 h1, ul {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 	text-align: center;
 }
 
@@ -136,6 +139,7 @@ ul li {
 }
 
 ul li a {
+	font-family: 'Roboto', sans-serif;
 	text-decoration: none;
 	color: black;
 }
@@ -153,12 +157,13 @@ ul li a:before {
 }
 
 #recent-attach {
+	font-family: 'Roboto', sans-serif;
 	background-color: #C2B79E;
 	border: 0px;
 	width: 100%;
 	padding: 10px 0px;
 	margin: 10px 0px;
-	font-size: 18px;
+	font-size: 19px;
 	cursor: pointer;
 }
 
@@ -192,6 +197,7 @@ input[type=text] {
 }
 
 #send-btn {
+	font-family: 'Roboto', sans-serif;
 	background-color: rgba(10,53,66,1);
 	font-size: 20px;
 	color: white;
